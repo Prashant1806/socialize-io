@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333333;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.feed-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.feed-item {
+  border: 1px solid #ffffff;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.feed-item img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+.feed-item p {
+  margin: 10px 0;
+}
