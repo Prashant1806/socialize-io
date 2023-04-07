@@ -103,4 +103,21 @@ const SocialMediaAggregator = () => {
   );
 };
 
-</InfiniteScroll>
+export default SocialMediaAggregator;
+      </InfiniteScroll>
+    </div>
+  );
+};
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <h1 className="App-title">Socialize.io</h1>
+      </header>
+      <SocialMediaAggregator />
+    </div>
+  );
+}
+
+export default App;
